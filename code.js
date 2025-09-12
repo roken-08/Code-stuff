@@ -1,6 +1,6 @@
-let btn = document.createElement("button");
-btn.innerText = "click me!";
-btn.style.backgroundColor = "red";
-btn.style.color = "white";
-document.querySelector("body").prepend(btn);
-console.log("R")
+let bt = document.querySelector("#btn1");
+
+bt.onclick = () => {
+    console.log("Button has been pressed");
+    console.log("You have scanmmed 1 user")
+}
