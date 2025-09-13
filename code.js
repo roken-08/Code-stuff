@@ -1,6 +1,10 @@
-let bt = document.querySelector("#btn1");
+let dt1 = document.querySelector("#dat");
+let b = document.querySelector("body");
 
-bt.onclick = (e) => {
-    console.log(e);
-    console,log(e.target);
-}
+dt1.addEventListener("click" , () =>{
+    b.style.backgroundColor = "black";
+})
+
+dt1.addEventListener("dblclick", () =>{
+    b.style.backgroundColor = "white";
+})
